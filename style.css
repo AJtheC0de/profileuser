@@ -111,7 +111,7 @@ h4 {
 
 .aboutmefield {
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-color: rgb(213, 213, 213);
   margin-top: 10px;
   border-radius: 20px;
@@ -134,3 +134,4 @@ h4 {
   display: flex;
   justify-content: center;
 }
+
