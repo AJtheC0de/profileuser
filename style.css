@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h5,
+p {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+.menuopenericon {
+  flex: 1;
+}
+
+.menuopenericon > img {
+  height: 30px;
+}
+
+.profilenamesection {
+  flex: 3;
+  text-align: center;
+}
+
+.closeicon {
+  flex: 1;
+  text-align: end;
+}
+
+.closeicon > img {
+  height: 30px;
+}
+
+.profileinformation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 230px;
+
+  margin-top: 100px;
+  align-items: center;
+}
+.profileimage > img {
+  height: 9rem;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: #68d2e820;
+  padding: 5px;
+}
+
+.firstname {
+  text-align: center;
+}
+
+.firstname > p {
+  font-size: 15px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+}
+
+h4 {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+#about {
+  border-bottom: solid #68d2e8;
+  padding-bottom: 40px;
+  color: #68d2e8;
+}
+
+.plan,
+.shots > h4 {
+  color: grey;
+  border-bottom: solid rgb(225, 223, 223);
+  padding-bottom: 40px;
+}
+.aboutinput {
+  text-align: start;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.aboutplace {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+}
+
+.aboutmefield {
+  height: 200px;
+  width: 400px;
+  background-color: rgb(213, 213, 213);
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.facts {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#styledfact {
+  background-color: #68d2e8;
+  padding: 5px;
+  border-radius: 7px;
+  color: white;
+}
+.aboutinput {
+  display: flex;
+  justify-content: center;
+}
